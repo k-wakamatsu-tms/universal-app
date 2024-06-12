@@ -12,6 +12,13 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
+        name="message/index"
+        options={{
+          title: 'Message',
+          tabBarIcon: ({ color }) => <FontAwesome size={28} name="comment" color={color} />,
+        }}
+      />
+      <Tabs.Screen
         name="settings"
         options={{
           title: 'Settings',
